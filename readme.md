@@ -6,7 +6,8 @@
 
 ## Primera parte: Destinos y mensajeros
 
-Desarrollar y probar un programa que me permita saber si el paquete puede ser entregado por un mensajero. Un paquete puede entregarse cuando el mensajero puede llegar al destino indicado y además el paquete está pago.
+Desarrollar y probar un programa que me permita saber si el paquete puede ser entregado por un mensajero. Un paquete 
+puede entregarse cuando el mensajero puede llegar al destino indicado y además el paquete está pago.
 
 **Destinos posibles:**
 
@@ -15,8 +16,11 @@ Desarrollar y probar un programa que me permita saber si el paquete puede ser en
 
 **Mensajeros posibles:**
 
-- Roberto: Roberto viaja en bicicleta o camión. Si viaja en bicicleta, el peso que cuenta es el suyo propio más 5, que es lo que pesa la bici. Si viaja en camión, el peso es el propio más el del camión, a razón de media tonelada por cada acoplado. Roberto no tiene un mango, gracias que tiene cubiertas, y no puede llamar a nadie.
-- Chuck Norris: Chuck Norris pesa 80 kg y puede llamar a cualquier persona del universo con sólo llevarse el pulgar al oído y el meñique a la boca.
+- Roberto: Roberto viaja en bicicleta o camión. Si viaja en bicicleta, el peso que cuenta es el suyo propio más 5,
+ que es lo que pesa la bici. Si viaja en camión, el peso es el propio más el del camión, a razón de media tonelada 
+ por cada acoplado. Roberto no tiene un mango, gracias que tiene cubiertas, y no puede llamar a nadie.
+- Chuck Norris: Chuck Norris pesa 80 kg y puede llamar a cualquier persona del universo con sólo llevarse el pulgar 
+al oído y el meñique a la boca.
 - Neo vuela, así que no pesa nada. Y anda con celular. El tema es que a veces no tiene crédito para hacer llamadas.
 
 **Tests**
@@ -28,7 +32,8 @@ Realizar una serie de tests, donde se prueben las diferentes situaciones, entre 
 
 ## Segunda parte: Empresa de mensajería 
 
-Ahora aparece una empresa de mensajería. Esta tiene un conjunto de mensajeros, los cuales podrían ser Roberto, Chuck y Neo. 
+Ahora aparece una empresa de mensajería. Esta tiene un conjunto de mensajeros, los cuales podrían ser Roberto, Chuck 
+y Neo. 
 
 Se necesita poder:
 
