@@ -1,23 +1,34 @@
 import destinos.*
 import empresaMensajeria.*
-
+object goku{
+	var peso = 90
+	method peso(){return peso}
+	method viajaEnBici(){}
+	method viajaEnBici(){}
+	method puedeLlamar(){return true}
+	method puedePasar(){
+		return  puente.dejaPasar(self) or matrix.dejaPasar(self)
+	}
+}
 object roberto{
-    var peso
+    var peso = 0
     var property acoplado
 
-	method peso() = peso
+	method peso() {return peso}
     method viajaEnBici(){
-        return peso + 5
+        return 5 + peso
     }
 
     method viajaEnCamion(){
-        return peso +(self.acoplado() * 500)
+        return (self.acoplado() * 500) + peso
     }
 
     method puedeLlamar(){
         return false
     }
-
+	method puedePasar(){
+		return  puente.dejaPasar(self) or matrix.dejaPasar(self)
+	}
 
 }
 
@@ -29,17 +40,26 @@ object norris{
     method puedeLlamar(){
         return true 
     }
+    method puedePasar(){
+		return  puente.dejaPasar(self) or matrix.dejaPasar(self)
+	}
 }
 
 
 
 object neo {
     const peso = 0
-    method peso() = peso
-    var tieneCredito = true
+    var property tieneCredito
     method viajaEnBici(){}
     method viajaEnCamion(){}
-    method puedeLlamar(){
-        return if(tieneCredito){true} else false
-    }
+	method puedeLlamar() {
+		return
+			if (tieneCredito){
+				tieneCredito
+			} else false
+	}
+    method peso() {return peso}
+    method puedePasar(){
+		return  puente.dejaPasar(self) or matrix.dejaPasar(self)
+	}
 }
